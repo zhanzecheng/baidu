@@ -1,5 +1,6 @@
 import sys
 sys.path.insert(0, "../../python")
+import numpy
 import mxnet as mx
 import numpy as np
 import cv2, random
