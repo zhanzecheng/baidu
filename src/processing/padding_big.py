@@ -4,11 +4,11 @@ import cv2
 import numpy as np
 
 
-filenames = glob.glob('/d_2t/smalleq/*.png')
-SAVE_FOLD = '/d_2t/smalleqtrain/'
+filenames = glob.glob('/d_2t/bigeq/*.png')
+SAVE_FOLD = '/d_2t/bigeqtrain/'
 
-PADDING_WIDTH = 64
-PADDING_HEIGHT = 198
+PADDING_WIDTH = 80
+PADDING_HEIGHT = 766
 import cPickle as pickle
 
 if __name__ == '__main__':
